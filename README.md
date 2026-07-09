@@ -5,7 +5,7 @@ An AI-powered application for generating realistic synthetic datasets using Larg
 This project explores two different approaches to LLM inference:
 
 - **Hugging Face** – Local inference using open-source models.
-- **OpenAI** – Production-oriented implementation using the Chat Completions API.
+- **OpenAI** – Cloud inference with OpenAI models or local inference using Ollama.
 
 ---
 
@@ -25,7 +25,28 @@ Generate realistic synthetic datasets using open-source language models running 
 
 ## Screenshot
 
-![Hugging Face Demo](screenshots/synthetic_data_generador_hugging_face_models.png)
+![Hugging Face Demo](screenshots/synthetic_data_generator_hugging_face_models.png)
+
+---
+
+# OpenAI Implementation
+
+Generate realistic synthetic datasets using cloud-hosted OpenAI models or locally hosted Ollama models through the OpenAI-compatible API.
+
+## Features
+
+- OpenAI GPT-4o Mini integration
+- Local inference using Ollama (Llama 3.2)
+- Switch between cloud and local models
+- Gradio web interface
+- CSV dataset generation
+- JSON dataset generation
+
+## Screenshot
+
+![OpenAI Demo](screenshots/synthetic_data_generator_openai_models.png)
+
+---
 
 # Project Structure
 
@@ -37,7 +58,6 @@ synthetic-data-generator/
 │   ├── config.py
 │   ├── generator.py
 │   ├── prompts.py
-│   ├── utils.py
 │   ├── requirements.txt
 │   └── .env.example
 │
@@ -46,9 +66,19 @@ synthetic-data-generator/
 │   ├── config.py
 │   ├── generator.py
 │   ├── prompts.py
-│   ├── utils.py
 │   ├── requirements.txt
 │   └── .env.example
 │
 └── screenshots/
 ```
+
+---
+
+# Technologies
+
+- Python
+- Gradio
+- Hugging Face Transformers
+- OpenAI API
+- Ollama
+- PyTorch
