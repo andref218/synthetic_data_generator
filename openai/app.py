@@ -41,7 +41,7 @@ interface = gr.Interface(
 
     title="Synthetic Data Generator (OpenAI)",
 
-    description="Generate realistic synthetic datasets using OpenAI language models.",
+    description="Generate realistic synthetic datasets using OpenAI and Llama language models.",
 )
 
 interface.launch()

@@ -1,6 +1,5 @@
 from config import MODELS, openai, ollama
 from prompts import build_prompt
-from utils import save_dataset
 
 
 def generate_dataset(dataset_description, rows, output_format, model, client):
@@ -44,7 +43,5 @@ def generate(dataset_description, rows, output_format, selected_model):
         model,
         client
     )
-
-    filename = save_dataset(dataset, output_format)
 
     return dataset
