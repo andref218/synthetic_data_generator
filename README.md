@@ -13,6 +13,10 @@ This project explores two different approaches to LLM inference:
 
 Generate realistic synthetic datasets using open-source language models running locally with Hugging Face Transformers.
 
+## Screenshot
+
+![Hugging Face Demo](screenshots/synthetic_data_generator_hugging_face_models.png)
+
 ## Features
 
 - Local inference using Hugging Face Transformers
@@ -23,15 +27,15 @@ Generate realistic synthetic datasets using open-source language models running 
 - CSV dataset generation
 - JSON dataset generation
 
-## Screenshot
-
-![Hugging Face Demo](screenshots/synthetic_data_generator_hugging_face_models.png)
-
 ---
 
 # OpenAI Implementation
 
 Generate realistic synthetic datasets using cloud-hosted OpenAI models or locally hosted Ollama models through the OpenAI-compatible API.
+
+## Screenshot
+
+![OpenAI Demo](screenshots/synthetic_data_generator_openai_models.png)
 
 ## Features
 
@@ -41,10 +45,6 @@ Generate realistic synthetic datasets using cloud-hosted OpenAI models or locall
 - Gradio web interface
 - CSV dataset generation
 - JSON dataset generation
-
-## Screenshot
-
-![OpenAI Demo](screenshots/synthetic_data_generator_openai_models.png)
 
 ---
 
