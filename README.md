@@ -72,6 +72,94 @@ synthetic-data-generator/
 └── screenshots/
 ```
 
+# Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/andref218/synthetic_data_generator.git
+cd synthetic_data_generator
+```
+
+---
+
+## Hugging Face Version
+
+Navigate to the Hugging Face implementation:
+
+```bash
+cd huggingface
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python app.py
+```
+
+---
+
+## OpenAI / Ollama Version
+
+Navigate to the OpenAI implementation:
+
+```bash
+cd openai
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+If using Ollama, install Ollama:
+
+https://ollama.com
+
+Download the language model:
+
+```bash
+ollama pull llama3.2
+```
+
+Run the application:
+
+```bash
+python app.py
+```
+
+# Configuration
+
+Create a `.env` file based on `.env.example`.
+
+### Hugging Face
+
+```text
+HF_TOKEN=your_huggingface_token
+```
+
+### OpenAI
+
+```text
+OPENAI_API_KEY=your_openai_api_key
+```
+
+---
+
+# Usage
+
+1. Select the output format (CSV or JSON).
+2. Enter a description of the dataset.
+3. Choose the language model.
+4. Generate the synthetic dataset.
+
 ---
 
 # Technologies
